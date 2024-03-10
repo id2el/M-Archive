@@ -11,12 +11,7 @@
         $(document).ready(function() {
         // Swiper: Slider
             new Swiper('.swiper-container', {
-                navigation: {   // 버튼 사용자 지정
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
                 direction: 'horizontal',
-                slidesPerView: 5,
                 paginationClickable: true,
                 autoplay: {
                         delay: 3000,
@@ -28,6 +23,19 @@
                 loopAdditionalSlides : 1,
                 loopFillGroupWithBlank: true,
                 duplicates: 'true',
+                breakpoints: {
+                    '@0.75': {
+                        slidesPerView: 1,
+                    },
+                    '@1.00': {
+                        slidesPerView: 5,
+                        spaceBetween: 40,
+                    },
+                    '@1.50': {
+                        slidesPerView: 5,
+                        spaceBetween: 50,
+                    },
+                    });
             });
 });
                 // jQuery를 로드한 후에 noConflict() 메서드를 호출합니다.
@@ -178,10 +186,6 @@
         $(document).ready(function() {
         // Swiper: Slider
             new Swiper('.swiper-container', {
-                navigation: {   // 버튼 사용자 지정
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
                 direction: 'horizontal',
                 paginationClickable: true,
                 autoplay: {
