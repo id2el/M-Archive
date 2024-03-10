@@ -274,9 +274,8 @@ nav {
   .shop { 
     margin: 0 auto;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     overflow: hidden;
   }
   .shop img {
@@ -292,9 +291,8 @@ nav {
   .video {
     margin-top: 300px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
   }
   iframe {
     height: 539px;
@@ -630,9 +628,8 @@ nav {
   .shop { 
     margin: 0 auto;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     overflow: hidden;
   }
   .shop img {
@@ -648,9 +645,8 @@ nav {
   .video {
     margin-top: 300px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
   }
   iframe {
     height: 539px;
