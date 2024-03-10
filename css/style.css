@@ -708,7 +708,7 @@ left: 1129px;
 @media (max-width: 768px) {
   
     header {
-        width: 1440px;
+        width: 768px;
         flex-shrink: 0;
         z-index: 5;
     }
@@ -747,7 +747,7 @@ left: 1129px;
         width: 100px;
         text-align: center;
         display: none;
-        line-height: 150%;
+        line-height: 200%;
     }
     .sub {
         width: 100%;
@@ -765,8 +765,8 @@ left: 1129px;
     
     .nav_logo {
         display: flex;
-        width: 166px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
@@ -805,16 +805,17 @@ m    .language > a {
     }
     
     .main_banner {
-        width: 1440px;
-        height: 518px;
+        width: 768px;
+        height: 266px;
         background-size: cover;
         background-position: center;
-        margin-top: 400px;
+        position: fixed;
+	top: 300px;
         background-image:url('/M-Archive/img/banner.png');
     }
     
     .container{
-        width: 1440px;
+        width: 768px;
     }
     .swiper-container {
         width: 100%;
@@ -996,8 +997,8 @@ m    .language > a {
         transform: translate(-50%, 0%);
       }
       iframe {
-        height: 539px;
-        width: 931px;
+        height: 400px;
+        width: 700px;
       }
       .introduce {
         margin-top: 448px;
@@ -1046,57 +1047,9 @@ m    .language > a {
       flex-shrink: 0;
       z-index: 5;
   }
-  nav ul li { float: left;}
   nav {
-      margin: 0 auto;
-      float: left;
-      width: 100%;
-      position: absolute;
-      top: 10%;
-  }
-  .main ul li {
-      text-align: center;
-      margin: 0 auto;
-  }
-  .main > li > a {
-      top: 10%;
-      padding: 30px 50px;
-      width: 200px;
-      height: 50px;
-      flex-shrink: 0;
-      color: #000;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      text-align: center;
-  }
-  
-  .sub li a {
-      flex-shrink: 0;
-      color: #000;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 600;
-      width: 100px;
-      text-align: center;
       display: none;
-      line-height: 150%;
   }
-  .sub {
-      width: 100%;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      margin-top: 1cqw;
-  }
-  /* 주메뉴에 마우스 올리면 서브메뉴 나타남 */
-  .main:hover .sub a {
-      /*보임*/
-      display: block;
-  }
-  
   .nav_logo {
       display: flex;
       width: 166px;
@@ -1139,8 +1092,8 @@ m    .language > a {
   }
   
   .main_banner {
-      width: 1440px;
-      height: 518px;
+      width: 375px;
+      height: 130px;
       background-size: cover;
       background-position: center;
       margin-top: 200px;
@@ -1148,7 +1101,7 @@ m    .language > a {
   }
   
   .container{
-      width: 1440px;
+      width: 375px;
   }
   .swiper-container {
       width: 100%;
@@ -1330,8 +1283,8 @@ m    .language > a {
       transform: translate(-50%, 0%);
     }
     iframe {
-      height: 539px;
-      width: 931px;
+      height: 180px;
+      width: 300px;
     }
     .introduce {
       margin-top: 448px;
