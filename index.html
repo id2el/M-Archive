@@ -195,7 +195,12 @@
                 loopAdditionalSlides : 1,
                 loopFillGroupWithBlank: true,
                 duplicates: 'true',
-            });
+                breakpoints: { 
+                    width: 0: {slidesPreview: 1,},
+                            768: {slidesPerView: 4,}, 
+                            1024: { slidesPerView: 5, }, } 
+                        });
+                    });
 });
             // jQuery를 로드한 후에 noConflict() 메서드를 호출합니다.
     var jq = $.noConflict();
