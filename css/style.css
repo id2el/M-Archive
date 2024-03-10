@@ -107,7 +107,6 @@ nav {
     background-position: center;
     margin-top: 200px;
     background-image:url('/M-Archive/img/banner.png');
-    margin: 0 auto;
     
 }
 
@@ -292,7 +291,7 @@ nav {
   .video {
     position: absolute;
     top: 2775px;
-    transform: translateX(-50%);
+    left: 15%;
   }
   iframe {
     height: 539px;
