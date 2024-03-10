@@ -101,13 +101,13 @@ nav {
 }
 
 .main_banner {
-    width: 1440px;
+    width: 1540px;
     height: 518px;
     background-size: cover;
     background-position: center;
     margin-top: 200px;
     background-image:url('/M-Archive/img/banner.png');
-    margin: 0 auto;
+    
 }
 
 .container{
