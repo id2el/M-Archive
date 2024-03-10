@@ -764,13 +764,7 @@ left: 1129px;
     }
     
     .nav_logo {
-        display: flex;
-        width: 50px;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        float: left;
+        display: none;
     }
     .right {
         position: relative;
@@ -1043,7 +1037,7 @@ m    .language > a {
 @media (max-width: 768px) {
 
   header {
-      width: 1440px;
+      width: 100%;
       flex-shrink: 0;
       z-index: 5;
   }
@@ -1052,8 +1046,8 @@ m    .language > a {
   }
   .nav_logo {
       display: flex;
-      width: 166px;
-      height: 100px;
+      width: 50px;
+      height: 50px;
       justify-content: center;
       align-items: center;
       flex-shrink: 0;
@@ -1269,13 +1263,10 @@ m    .language > a {
     .shop img {
       width: 261px;
       height: 397px;
-      float: left;
-      margin: 0 12px;
-      transition: transform 0.3s ease-in-out;
+      float: vertical;
+      margin: 0 auto;
     }
-    .shop img:hover {
-      transform: scale(1.1);
-    }
+	
     .video {
       margin-top: 300px;
       position: absolute;
@@ -1293,7 +1284,6 @@ m    .language > a {
     .introduce p {
       margin-top: 148px;
       float: left;
-      margin-left: 424px;
       font-size: 20px;
       font-style: normal;
       font-weight: 600;
@@ -1301,10 +1291,9 @@ m    .language > a {
     }
   
    .introduce img {
-      width: 214px;
-      height: 333px;
+      width: 114px;
+      height: 233px;
       float: right;
-      margin-right: 351px;
    }
    .copyright {
       float: left;
@@ -1312,10 +1301,9 @@ m    .language > a {
       height: 150px;
    }
    .copyright p {
-      margin-left: 163px;
       color: #5C5C5C;
       font-family: Pretendard;
-      font-size: 14px;
+      font-size: 12px;
       font-style: normal;
       font-weight: 800;
       line-height: normal;
