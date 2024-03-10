@@ -30,6 +30,15 @@
                 duplicates: 'true',
             });
 });
+                // jQuery를 로드한 후에 noConflict() 메서드를 호출합니다.
+    var jq = $.noConflict();
+
+    // 이제 jQuery에 대해 jq 변수를 사용하여 접근할 수 있습니다.
+    jq(document).ready(function(){
+        jq("button").click(function(){
+            jq("p").hide();
+        });
+    });
     </script>
 </head>
 <body>
