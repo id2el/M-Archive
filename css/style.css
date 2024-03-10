@@ -1,87 +1,8 @@
 @media (max-width: 1440px) {
     /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
-    body {
+body {
         width: 100%;
     }
-}
-
-@media (max-width: 1439px) {
-    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
-    body {
-        width: 77.5%;
-    }
-}
-
-@media (max-width: 774px) {
-    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
-    body {
-        width: 77.5%;
-    }
-}
-
-@media (max-width: 375px) {
-    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
-    body {
-        width: 13.5%;
-    }
-}
-
-@media (max-width: 360px) {
-    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
-    body {
-        width: 13.45%;
-    }
-}
-
-*{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-/* 사이즈 조정 */
-.wrap {
-    width: 100%;
-    margin: 0 auto;
-}
-/* 전체 */
-* { margin: 0; padding: 0; }
-body { 
-    font-family: 'Pretendard-Regular';
-    background-repeat: no-repeat;
-    background-size: 100%;
-    overflow-x: hidden;
-}
-
-/* 리스트 스타일 제거 */
-li {
-    list-style: none;
-}
-
-nav ul {
-    margin: 0;
-	padding: 0;
-}
-
-/* a 태그 밑줄 제거 */
-a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-}
-
-/* 사이즈 조정 */
-header, footer, section {
-    width: 100%; float: left;
-    /*float : 서브메뉴가 section 객체를 밀어내지 못하게 하고, footer 가 section 객체와 겹치지 않도록 함*/
-}
-
 header {
     width: 1440px;
     flex-shrink: 0;
@@ -428,3 +349,75 @@ nav {
     margin-right: 161px;
     margin-bottom: 74px;
  }
+
+}
+
+@media (max-width: 1439px) {
+    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
+    wrap {
+        width: 77.5%;
+    }
+}
+
+@media (max-width: 774px) {
+    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
+    body {
+        width: 77.5%;
+    }
+}
+
+@media (max-width: 360px) {
+    /* 미디어 쿼리를 사용하여 작은 화면 크기에 대한 스타일을 적용합니다. */
+    body {
+        width: 13.45%;
+    }
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/* 사이즈 조정 */
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+/* 전체 */
+* { margin: 0; padding: 0; }
+body { 
+    font-family: 'Pretendard-Regular';
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+/* 리스트 스타일 제거 */
+li {
+    list-style: none;
+}
+
+nav ul {
+    margin: 0;
+	padding: 0;
+}
+
+/* a 태그 밑줄 제거 */
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* 사이즈 조정 */
+header, footer, section {
+    width: 100%; float: left;
+    /*float : 서브메뉴가 section 객체를 밀어내지 못하게 하고, footer 가 section 객체와 겹치지 않도록 함*/
+}
