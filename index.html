@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M-Archive</title>
-    <link rel="text/javascript" href="/M-Archive/jQuery/jquery-3.6.3.min.js">
+    <link rel="text/javascript" href="/M-Archive/jQuery/jquery-3.6.3.js">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="/M-Archive/css/style.css">
         <script>
@@ -196,6 +196,15 @@
                 duplicates: 'true',
             });
 });
+            // jQuery를 로드한 후에 noConflict() 메서드를 호출합니다.
+    var jq = $.noConflict();
+
+    // 이제 jQuery에 대해 jq 변수를 사용하여 접근할 수 있습니다.
+    jq(document).ready(function(){
+        jq("button").click(function(){
+            jq("p").hide();
+        });
+    });
 
     </script>
 </body>
