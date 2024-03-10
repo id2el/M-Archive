@@ -794,7 +794,7 @@ left: 1129px;
         flex-shrink: 0;
         margin-top: 20px;
         }
-m    .language > a {
+    .language > a {
         padding: 27px 16px
     }
     
@@ -803,7 +803,7 @@ m    .language > a {
         height: 266px;
         background-size: cover;
         background-position: center;
-        position: fixed;
+        position: absouluted;
 	top: 300px;
         background-image:url('/M-Archive/img/banner.png');
     }
@@ -1268,7 +1268,7 @@ m    .language > a {
     }
 	
     .video {
-      margin-top: 300px;
+      margin-top: 900px;
       position: absolute;
       left: 50%;
       transform: translate(-50%, 0%);
