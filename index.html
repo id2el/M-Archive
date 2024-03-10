@@ -7,6 +7,30 @@
     <link rel="text/javascript" href="/M-Archive/jQuery/jquery-3.6.3.min.js">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="/M-Archive/css/style.css">
+        <script>
+        $(document).ready(function() {
+        // Swiper: Slider
+            new Swiper('.swiper-container', {
+                navigation: {   // 버튼 사용자 지정
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                direction: 'horizontal',
+                slidesPerView: 5,
+                paginationClickable: true,
+                autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                autoHeight : true,
+                slidesOffsetBefore : 50,
+                slidesOffsetAfter : 50, 
+                loopAdditionalSlides : 1,
+                loopFillGroupWithBlank: true,
+                duplicates: 'true',
+            });
+});
+    </script>
 </head>
 <body>
     <header>
