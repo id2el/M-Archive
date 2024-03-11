@@ -808,16 +808,17 @@
           background-size: cover;
           background-position: center;
           position: absolute;
-          top: 350px;
+          top: 300px;
           background-image:url('/M-Archive/img/banner.png');
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
+          margin-bottom: 500px;
       }
       
       .container{
           width: 1131px;
-          margin-top: 350px;
+          margin-top: 300px;
       }
       .swiper-container {
           width: 1131px;
@@ -967,6 +968,7 @@
           left: 10px;
         }
         .shop { 
+          margin-top: 300px;
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
@@ -1018,8 +1020,8 @@
           margin-top: 150px;
           margin-left: 150px;
           float: left;
-          width: 800px;
-          height: 100px;
+          width: 1131px;
+          height: 120px;
        }
        .copyright p {
           margin-right: 50px;
