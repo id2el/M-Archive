@@ -711,6 +711,7 @@
           width: 100%;
           flex-shrink: 0;
           z-index: 5;
+          margin-bottom: 500px;
       }
       nav ul li { float: left;}
       nav {
@@ -814,7 +815,6 @@
           left: 50%;
           transform: translate(-50%, 0);
           margin-bottom: 500px;
-          margin-top: 500px;
       }
       
       .container{
@@ -1079,7 +1079,7 @@
       position: relative;
       float: right;
       width: 80px;
-      height: 60px;
+      height: 30px;
       flex-shrink: 0;
       }
   
