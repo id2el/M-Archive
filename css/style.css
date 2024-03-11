@@ -1135,7 +1135,7 @@
         height: 361px;
       }
       .title {
-        margin-top: 150px;
+        margin-top: 350px;
         margin-bottom: 15px;
         margin-left: 24px;
         font-size: 8px;
@@ -1286,7 +1286,7 @@
       }
     
       .video {
-        margin-top: 1150px;
+        margin-top: 1950px;
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0%);
@@ -1322,7 +1322,7 @@
         float: left;
         width: 375px;
         height: 130px;
-        margin-top: 1150px;
+        margin-top: 150px;
      }
      .copyright p {
         color: #5C5C5C;
