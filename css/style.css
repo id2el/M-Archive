@@ -1112,6 +1112,9 @@
         background-size: cover;
         background-position: center;
         margin-top: 150px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
         background-image:url('/M-Archive/img/banner.png');
     }
 
@@ -1270,7 +1273,6 @@
       }
       .shop {
         display: flex; /* Flexbox 레이아웃 사용 */
-        align-items: center; /* 수직 가운데 정렬 */
       }
       .shop img {
         width: 261px;
