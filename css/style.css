@@ -711,6 +711,7 @@
           width: 100%;
           flex-shrink: 0;
           z-index: 5;
+          height: 500px;
       }
       nav ul li { float: left;}
       nav {
