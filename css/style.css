@@ -974,7 +974,7 @@
           left: 50%;
           transform: translate(-50%, 0);
           display: flex;
-          align-items: center;
+          float: vertical;
           
         }
         .shop img {
@@ -1271,7 +1271,6 @@
       }
       .shop {
         display: flex; /* Flexbox 레이아웃 사용 */
-        justify-content: center; /* 수평 가운데 정렬 */
         align-items: center; /* 수직 가운데 정렬 */
       }
       .shop img {
