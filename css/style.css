@@ -1065,7 +1065,7 @@
       width: 100%;
       flex-shrink: 0;
       z-index: 5;
-      padding-bottom: 300px
+      padding-bottom: 300px;
     }
   nav {
       margin: 0 auto;
@@ -1128,7 +1128,7 @@
         left: 50%;
         transform: translate(-50%, 0);
         background-image:url('/M-Archive/img/banner.png');
-        top: 800px;
+        top: 120px;
     }
 
     .swiper-container {
