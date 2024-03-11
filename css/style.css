@@ -1107,8 +1107,8 @@
   }
     
     .main_banner {
-        width: 500px;
-        height: 183px;
+        width: 375px;
+        height: 130px;
         background-size: cover;
         background-position: center;
         margin-top: 150px;
@@ -1298,7 +1298,7 @@
       }
 
       .introduce {
-        margin-top: 500px;
+        margin-top: 1500px;
         margin-bottom: 150px;
       }
       
@@ -1322,7 +1322,7 @@
         float: left;
         width: 375px;
         height: 130px;
-        margin-top: 150px;
+        margin-top: 1150px;
      }
      .copyright p {
         color: #5C5C5C;
