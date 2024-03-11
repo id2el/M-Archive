@@ -720,7 +720,6 @@
           width: 100%;
           position: absolute;
           top: 10%
-          padding-bottom: 500px;
       }
       .main ul li {
           text-align: center;
@@ -815,7 +814,7 @@
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
-          margin-bottom: 500px;
+          margin-bottom: 150px;
       }
       
       .container{
