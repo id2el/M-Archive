@@ -1116,6 +1116,7 @@
         left: 50%;
         transform: translate(-50%, 0);
         background-image:url('/M-Archive/img/banner.png');
+        margin-bottom: 500px;
     }
 
     .swiper-container {
@@ -1272,7 +1273,7 @@
         left: 10px;
       }
       .shop {
-        display: flex; /* Flexbox 레이아웃 사용 */
+        float: left;
       }
       .shop img {
         width: 261px;
