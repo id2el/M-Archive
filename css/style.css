@@ -1045,7 +1045,7 @@
       }
   
   
-  /*Moblie*/
+  /*Mobile*/
   
   @media (max-width: 766px) {
   
@@ -1269,7 +1269,9 @@
         left: 10px;
       }
       .shop {
-        margin-left: 57px;
+        display: flex; /* Flexbox 레이아웃 사용 */
+        justify-content: center; /* 수평 가운데 정렬 */
+        align-items: center; /* 수직 가운데 정렬 */
       }
       .shop img {
         width: 261px;
@@ -1314,7 +1316,7 @@
      .copyright {
         float: left;
         width: 375px;
-        height: 150px;
+        height: 130px;
         margin-top: 150px;
      }
      .copyright p {
