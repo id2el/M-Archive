@@ -809,7 +809,7 @@
           background-position: center;
           position: absolute;
           top: 200px;
-          background-image:url('/img/banner.png');
+          background-image:url('/M-Archive/img/banner.png');
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
@@ -840,7 +840,7 @@
         .s1_1 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/1_1.png');
+          background-image: url('/M-Archive/img/1_1.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -856,7 +856,7 @@
         .s1_2 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/1_2.png');
+          background-image: url('/M-Archive/img/1_2.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -872,7 +872,7 @@
         .s1_3 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/1_3.png');
+          background-image: url('/M-Archive/img/1_3.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -888,7 +888,7 @@
         .s1_4 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/1_4.png');
+          background-image: url('/M-Archive/img/1_4.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -905,7 +905,7 @@
         .s2_1 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/2_1.png');
+          background-image: url('/M-Archive/img/2_1.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -921,7 +921,7 @@
         .s2_2 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/2_2.png');
+          background-image: url('/M-Archive/img/2_2.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -937,7 +937,7 @@
         .s2_3 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/2_3.png');
+          background-image: url('/M-Archive/img/2_3.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
@@ -953,7 +953,7 @@
         .s2_4 {
           width: 231px;
           height: 331px;
-          background-image: url('/img/2_4.png');
+          background-image: url('/M-Archive/img/2_4.png');
           background-size: cover;
           font-size: 10px;
           color: #FFF;
