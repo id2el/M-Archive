@@ -808,7 +808,7 @@
           background-size: cover;
           background-position: center;
           position: absolute;
-          top: 200px;
+          top: 400px;
           background-image:url('/M-Archive/img/banner.png');
           position: absolute;
           left: 50%;
@@ -970,6 +970,7 @@
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
+          
         }
         .shop img {
           width: 261px;
@@ -977,6 +978,7 @@
           float: left;
           margin: 20px 0px;
           transition: transform 0.3s ease-in-out;
+          display: block;
         }
         .shop img:hover {
           transform: scale(1.1);
@@ -1012,7 +1014,7 @@
        }
        .copyright {
           margin-top: 150px;
-          margin-left: 50px;
+          margin-left: 150px;
           float: left;
           width: 800px;
           height: 100px;
@@ -1035,7 +1037,7 @@
         float: right;
         width: 30px;
         height: 30px;
-        margin-right: 150px;
+        margin-right: 50px;
        }
       }
   
