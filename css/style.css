@@ -804,7 +804,7 @@
       
       .main_banner {
           width: 744px;
-          height: auto;
+          height: 270px;
           background-size: cover;
           background-position: center;
           position: absolute;
@@ -996,7 +996,7 @@
           width: 700px;
         }
         .introduce {
-          margin-top: 2248px;
+          margin-top: 800px;
         }
         .introduce p {
           margin-top: 80px;
