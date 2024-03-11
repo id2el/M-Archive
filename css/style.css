@@ -1274,6 +1274,9 @@
       }
       .shop {
         float: left;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
       }
       .shop img {
         width: 261px;
@@ -1283,7 +1286,7 @@
       }
     
       .video {
-        margin-top: 150px;
+        margin-top: 1150px;
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0%);
