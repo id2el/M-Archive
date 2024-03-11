@@ -808,7 +808,7 @@
           background-size: cover;
           background-position: center;
           position: fixed;
-          top: 1500px;
+          top: 500px;
           background-image:url('/M-Archive/img/banner.png');
           position: absolute;
           left: 50%;
@@ -1111,12 +1111,11 @@
         height: 130px;
         background-size: cover;
         background-position: center;
-        margin-top: 150px;
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0);
         background-image:url('/M-Archive/img/banner.png');
-        margin-bottom: 500px;
+        bottom: 500px;
     }
 
     .swiper-container {
@@ -1134,6 +1133,7 @@
         width: 261px;
         height: 361px;
       }
+    
       .title {
         margin-top: 150px;
         margin-bottom: 15px;
