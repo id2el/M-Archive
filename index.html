@@ -9,34 +9,43 @@
     <link rel="stylesheet" href="/M-Archive/css/style.css">
         <script>
         $(document).ready(function() {
-        // Swiper: Slider
+            if (window.matchMedia("(min-width: 768px)").matches) {
+            // 화면 크기가 768px 이상인 경우 Swiper 초기화
             new Swiper('.swiper-container', {
-                direction: 'horizontal',
-                paginationClickable: true,
-                autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                autoHeight : true,
-                slidesOffsetBefore : 50,
-                slidesOffsetAfter : 50, 
-                loopAdditionalSlides : 1,
-                loopFillGroupWithBlank: true,
-                duplicates: 'true',
                 breakpoints: {
-                    '@0.75': {
-                        slidesPerView: 1,
-                    },
-                    '@1.00': {
+                    '@0.768': {
                         slidesPerView: 5,
-                        spaceBetween: 40,
+                        slidesOffsetBefore : 25,
+                        slidesOffsetAfter : 25, 
+                        pagenationClickable: true,
+                        autoHeight : true,
+                        loopAdditionalSlides : 1,
+                        loopFillGroupWithBlank: true,
+                        duplicates: 'true',
+                        direction: 'horizontal',
+                        autoplay: {
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            },       
                     },
                     '@1.50': {
                         slidesPerView: 5,
-                        spaceBetween: 50,
+                        slidesOffsetBefore : 50,
+                        slidesOffsetAfter : 50, 
+                        pagenationClickable: true,
+                        autoHeight : true,
+                        loopAdditionalSlides : 1,
+                        loopFillGroupWithBlank: true,
+                        duplicates: 'true',
+                        direction: 'horizontal',
+                        autoplay: {
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            },
                     },
                 }
             });
+            }
 });
                 // jQuery를 로드한 후에 noConflict() 메서드를 호출합니다.
     var jq = $.noConflict();
@@ -181,48 +190,5 @@
             <a href="https://www.instagram.com/m00nl1ght9126/"><img class = "insta" src="img/insta.png" alt="insta"></a>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script>
-        $(document).ready(function() {
-        // Swiper: Slider
-            new Swiper('.swiper-container', {
-                direction: 'horizontal',
-                paginationClickable: true,
-                autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                autoHeight : true,
-                slidesOffsetBefore : 50,
-                slidesOffsetAfter : 50, 
-                loopAdditionalSlides : 1,
-                loopFillGroupWithBlank: true,
-                duplicates: 'true',
-                breakpoints: {
-                    '@0.75': {
-                        slidesPerView: 1,
-                    },
-                    '@1.00': {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
-                    },
-                    '@1.50': {
-                        slidesPerView: 5,
-                        spaceBetween: 50,
-                    },
-                }
-            });
-});
-            // jQuery를 로드한 후에 noConflict() 메서드를 호출합니다.
-    var jq = $.noConflict();
-
-    // 이제 jQuery에 대해 jq 변수를 사용하여 접근할 수 있습니다.
-    jq(document).ready(function(){
-        jq("button").click(function(){
-            jq("p").hide();
-        });
-    });
-
-    </script>
 </body>
 </html>
