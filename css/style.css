@@ -803,7 +803,7 @@
       }
       
       .main_banner {
-          width: 80%;
+          width: 744px;
           height: auto;
           background-size: cover;
           background-position: center;
@@ -829,7 +829,7 @@
           height: 331px;
         }
         .title {
-          margin-top: 600px;
+          margin-top: 300px;
           margin-bottom: 10px;
           margin-left: 50px;
           font-size: 10px;
@@ -986,7 +986,7 @@
           transform: scale(1.1);
         }
         .video {
-          margin-top: 1600px;
+          margin-top: 800px;
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0%);
