@@ -714,6 +714,7 @@
       }
       nav ul li { float: left;}
       nav {
+          margin-bottom: 150px;
           margin: 0 auto;
           float: left;
           width: 100%;
@@ -1077,7 +1078,7 @@
   .right {
       position: relative;
       float: right;
-      width: 80px;
+      width: 60px;
       height: 60px;
       flex-shrink: 0;
       }
