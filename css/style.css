@@ -803,12 +803,12 @@
       }
       
       .main_banner {
-          width: 598px;
-          height: 220px;
+          width: 80%;
+          height: auto;
           background-size: cover;
           background-position: center;
           position: absolute;
-          top: 400px;
+          top: 350px;
           background-image:url('/M-Archive/img/banner.png');
           position: absolute;
           left: 50%;
@@ -970,6 +970,8 @@
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
+          display: flex;
+          align-items: center;
           
         }
         .shop img {
@@ -1037,7 +1039,6 @@
         float: right;
         width: 30px;
         height: 30px;
-        margin-right: 50px;
        }
       }
   
