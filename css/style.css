@@ -1065,7 +1065,7 @@
       width: 100%;
       flex-shrink: 0;
       z-index: 5;
-      padding-bottom: 150px
+      padding-bottom: 300px
     }
   nav {
       margin: 0 auto;
@@ -1124,7 +1124,6 @@
         height: 130px;
         background-size: cover;
         background-position: center;
-        top: 500px;
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0);
