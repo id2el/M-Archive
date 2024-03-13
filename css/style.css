@@ -987,7 +987,7 @@
           transform: scale(1.1);
         }
         .video {
-          margin-top: 600px;
+          margin-top: 750px;
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0%);
@@ -997,7 +997,7 @@
           width: 700px;
         }
         .introduce {
-          margin-top: 1300px;
+          margin-top: 1000px;
         }
         .introduce p {
           margin-top: 580px;
