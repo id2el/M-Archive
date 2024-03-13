@@ -975,8 +975,6 @@
           left: 50%;
           transform: translate(-50%, 0);
           display: flex;
-          float: vertical;
-          
         }
         .shop img {
           width: 261px;
@@ -990,7 +988,7 @@
           transform: scale(1.1);
         }
         .video {
-          margin-top: 800px;
+          margin-top: 1000px;
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0%);
@@ -1013,7 +1011,7 @@
         }
       
        .introduce img {
-          margin-top: 1000px;
+          margin-top: 500px;
           width: 109px;
           height: 170px;
           float: right;
