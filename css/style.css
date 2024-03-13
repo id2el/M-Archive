@@ -813,12 +813,12 @@
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
-          margin-bottom: 150px;
+          margin-bottom: 250px;
       }
       
       .container{
           width: 1131px;
-          margin-top: 500px;
+          margin-top: 300px;
       }
       .swiper-container {
           width: 1131px;
