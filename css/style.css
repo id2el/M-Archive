@@ -987,7 +987,7 @@
           transform: scale(1.1);
         }
         .video {
-          margin-top: 1000px;
+          margin-top: 600px;
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0%);
@@ -1042,7 +1042,7 @@
         width: 30px;
         height: 30px;
         position: absolute;
-        right: 200px;
+        right: 100px;
        }
       }
   
