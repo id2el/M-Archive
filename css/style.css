@@ -1055,6 +1055,7 @@
       width: 100%;
       flex-shrink: 0;
       z-index: 5;
+      padding-bottom: 350px;
     }
   nav {
       margin: 0 auto;
