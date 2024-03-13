@@ -808,7 +808,7 @@
           background-size: cover;
           background-position: center;
           position: absolute;
-          top: 100px;
+          top: 150px;
           background-image:url('/M-Archive/img/banner.png');
           position: absolute;
           left: 50%;
@@ -818,7 +818,7 @@
       
       .container{
           width: 1131px;
-          margin-top: 300px;
+          margin-top: 500px;
       }
       .swiper-container {
           width: 1131px;
